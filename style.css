@@ -272,8 +272,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #fff;
-    background: #004182;
+    color: #ffc059;
+    background: #fff;
 }
 
 .services, .teams{
