@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // animação de texto
     var typed = new Typed(".typing", {
-        strings: ["Software Developer"],
+        strings: ["Projetos FTTx direto no AutoCAD"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software Developer"],
+        strings: ["Projetos FTTx direto no AutoCAD"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
