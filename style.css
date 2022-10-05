@@ -13,24 +13,10 @@ html{
 }
 
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #000;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #004182;
-}
-
-
 section{
-    padding: 100px 0;
-}
+    padding: 150px 0;
+} /* padd do home */
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -43,6 +29,8 @@ section{
     margin: auto;
     padding-top: 1rem;
 }
+
+
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'DM Sans', sans-serif;
 }
@@ -77,7 +65,28 @@ section .title::before{
 
 
 
+
 /* navbar styling */
+.navbar .logo {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #FFFCF7;
+    background: #FFFCF7;
+    box-shadow: 0 6px 13px rgb(38 78 118 / 10%);
+    
+} 
+.navbar .logo img{
+    width: 40px;
+    height: 40px;
+} 
+
+/* ..... */
+
+
+
 .navbar{
     position: fixed;
     /* width: 100%; */
@@ -114,6 +123,7 @@ section .title::before{
 .navbar.sticky .logo a span{
     color: #000;
 } */
+
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -148,29 +158,15 @@ section .title::before{
     border-radius: 6px;
     border: 2px solid #fff;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
+
 
 .about .botao a:hover{
     color: #ffc059;
     background: #fff;
 }
 /* .... */
-
-.navbar .css-1960h8h {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-    display: inline-block;
-    border-radius: 6px;
-    border: 2px solid #fff;
-    background: #fff
-} 
-.navbar .css-1960h8h img{
-    width: 40px;
-    height: 40px;
-} 
-
-
 
 
 
@@ -211,9 +207,9 @@ section .title::before{
     filter: brightness(90%);
 }
 
-
-
-
+.about{
+    background-color: #FFFCF7;
+}
 .about .about-content .left{
     width: 40%;
 }
@@ -227,22 +223,40 @@ section .title::before{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 50px;
+    margin: 0;
+    min-width: 0;
+    font-weight: 700;
+    text-decoration: none solid rgb(52, 61, 72);
+    height: 94px;
+    width: 700px;
+    font-size: 42px;
     margin-bottom: 10px;
+    line-height: 1.25;
+    color: #343D48;
+    box-sizing: border-box;
+    padding-right: 10%;
+
 }
 .about .about-content .right .text span{
     color: #ffc059;
     font-size: 30px;
 }
 .about .about-content .right p{
+    font-size: 18px;
+    padding-top: 50px;
+    padding-right: 50px;
     text-align: justify;
+    color: #343D48;
+    width: 600px;
+
 }
 .about .about-content .right a{
+    padding-top: 30px;
     display: inline-block;
     background: #ffc059;
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
