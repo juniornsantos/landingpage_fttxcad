@@ -31,6 +31,7 @@ section{
 }
 
 
+
 .home, .services, .skills, .teams, .contact, footer{
     font-family: 'DM Sans', sans-serif;
 }
@@ -202,7 +203,15 @@ section .title::before{
 }
 
 .home{
+    display: flex;
     background-color: #FFFCF7;
+    height: 100vh;
+    color: #E6F4F1;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'DM Sans', sans-serif;
+
 }
 .home .home-content .left{
     width: 40%;
@@ -223,12 +232,12 @@ section .title::before{
     text-decoration: none solid rgb(52, 61, 72);
     height: 94px;
     width: 700px;
-    font-size: 42px;
+    font-size: 45px;
     margin-bottom: 10px;
     line-height: 1.25;
-    color: #343D48;
+    color: #02073E;
     box-sizing: border-box;
-    padding-right: 10%;
+    padding-right: 5%;
 
 }
 .home .home-content .right .text span{
@@ -268,31 +277,41 @@ section .title::before{
 
 
 
+
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins',sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
-.container{
+
+.about{
+    background: #F9FAFC;    
+}
+
+.precos{
 	width: 100%;
-	min-height: 100vh;
-	background: #fff;
+	min-height: 100vh;	
 }
-.container h2{
+
+.precos h2{
 	color: #000000;
 	font-size:32px;
 	padding:50px 0;
 	text-align: center;
 }
+
 .price-row{
-	width: 90%;
+	width: 460;
+    height: 883px;
 	max-width: 1100px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 25px;
 }
+
 .price-col{
 	background: #fff;
 	padding: 10% 15%;
