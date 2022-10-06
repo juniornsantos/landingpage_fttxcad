@@ -273,9 +273,7 @@ section .title::before{
 }
 
 
-/* começando a section about */
-
-
+/* começando a section precos */
 
 
 
@@ -296,20 +294,37 @@ section .title::before{
 }
 
 .precos h2{
-	color: #000000;
-	font-size:32px;
-	padding:50px 0;
+	color: #0F2137;
+	font-size:30px;
 	text-align: center;
+}
+.precos h4{
+	color: #858B91;
+	font-size:18px;
+	padding-top: 10px;
+	text-align: center;
+    padding-bottom: 50px;
+    font-weight: 10;
+}
+
+.precos h3{
+	color: #ffc059;
+	font-size:18px;
+	padding-top: 10px;
+	text-align: center;
+    padding-bottom: 20px;
+    font-weight: 10;
 }
 
 .price-row{
 	width: 460;
-    height: 883px;
+    height: 500px;
 	max-width: 1100px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 25px;
+    padding-left: -1%;
 }
 
 .price-col{
@@ -332,7 +347,7 @@ section .title::before{
 }
 .price-col ul{
 	text-align: left;
-	margin: 20px 0;
+	margin: 40px 0;
 	color: #000;
 }
 .price-col ul li{
@@ -353,11 +368,7 @@ section .title::before{
 .price-col button:hover{
 	background: #fff;
 }
-
-
-
-
-
+/* ................. */
 
 
 
