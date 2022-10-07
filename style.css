@@ -424,9 +424,99 @@ section .title::before{
     margin-top: 15px;
 }
 
+
+
+
 /* ................. */
 
 
+.inscrever {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-color: #353448;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* .cssinscrever {
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+.cssinscrever {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    text-align: center;
+    max-width: 660px;
+    margin: 0 auto 30px;
+    margin-bottom: 40px;
+}
+
+.cssinscrever .txtinscrever h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cssinscrever .txtinscrever .inc {
+    box-sizing: border-box;
+    height: 90px;
+    display: block;
+    height: 90px;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.cssinscrever .txtinscrever .inc2 {
+    box-sizing: border-box;
+    display: block;
+    height: 90px;
+    font-size: 18px;
+    line-height: 39.6px;
+    text-align: center;
+    color:  #858B91;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ................. */
+
+
+
+
+
+
+
+
+
+/* ................. */
 
 footer{
     font-family: 'DM Sans', sans-serif;
@@ -446,7 +536,7 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+/* ................. */
 
 /* botão de voltar ao home */
 .scroll-up-btn{
