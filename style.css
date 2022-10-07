@@ -174,33 +174,6 @@ section .title::before{
     cursor: pointer;
     display: none;
 }
-.scroll-up-btn{
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    background: #0568C6;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
-    color: #fff;
-    z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
-    border-bottom-width: 2px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-.scroll-up-btn.show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;
-}
-.scroll-up-btn:hover{
-    filter: brightness(90%);
-}
 
 .home{
     display: flex;
@@ -285,7 +258,7 @@ section .title::before{
 }
 
 .about{
-    background: red;    
+    background: #F9FAFC;    
 }
 
 .precos{
@@ -316,7 +289,7 @@ section .title::before{
     font-weight: 10;
 }
 
-.price-row{
+.preco-row{
 	width: 460;
     height: 500px;
 	max-width: 1100px;
@@ -333,7 +306,7 @@ section .title::before{
     color: #343D48;
 }
 
-.price-col{
+.preco-col{
 	background: #fff;
 	padding: 10% 15%;
 	border-radius: 10px;
@@ -342,28 +315,28 @@ section .title::before{
     
 }
 
-.price-col p{
+.preco-col p{
 	font-size: 22px;
     font-weight: 700;
     color: #343D48;
     text-transform: uppercase;
 }
-.price-col h3{
+.preco-col h3{
 	font-size: 44px;
 	margin: 20px 0 40px;
 	font-weight: 500;
 }
-.price-col h3 span{
+.preco-col h3 span{
 	font-size: 16px;
 }
-.price-col ul{
+.preco-col ul{
     list-style-type: none!important;
 	text-align: left;
 	margin: 40px 0;
 	color: #343D48;    
 }
 
-.price-col ul li{
+.preco-col ul li{
     box-sizing: border-box;
     font-size: 16px;
     align-items: flex-start;
@@ -382,7 +355,7 @@ section .title::before{
 
 
 
-.price-col button{
+.preco-col button{
     padding-top: 30px;
     display: inline-block;
     background: #ffc059;
@@ -395,7 +368,7 @@ section .title::before{
     border: 2px solid #ffc059;
     transition: all 0.3s ease;
 }
-.price-col button:hover{
+.preco-col button:hover{
     color: #fff;
     background: #02073E;
     border: 2px solid #02073E;
@@ -405,23 +378,6 @@ section .title::before{
 
 
 /* ................. */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -468,23 +424,60 @@ section .title::before{
     margin-top: 15px;
 }
 
-
+/* ................. */
 
 
 
 footer{
-    background: #051933;
-    padding: 15px 23px;
-    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    background: #2B293E;
+    /* padding: 15px 23px; */
+    color: rgba(255,255,255,0.7);
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 18px;
 }
 footer span a{
-    color: #0568C6;
+    color: #2B293E;
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
 }
+
+
+/* botão de voltar ao home */
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #201e2e;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: rgba(255,255,255,0.7);
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+/* ................. */
 
 
 /* respondividade */
@@ -536,13 +529,13 @@ footer span a:hover{
   background: #4267B2;
 }
 .wrapper .button:nth-child(2):hover .icon{
-  background: #0568C6;
+  background: #02073E;
 }
 .wrapper .button:nth-child(3):hover .icon{
-    background: #0568C6;
+    background: #02073E;
   }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #0568C6;
+  background: #02073E;
 }
 .wrapper .button:nth-child(5):hover .icon{
   background: #E1306C;
@@ -572,13 +565,13 @@ footer span a:hover{
   color: #4267B2;
 }
 .wrapper .button:nth-child(2) span{
-  color: #0568C6;
+  color: #02073E;
 }
 .wrapper .button:nth-child(3) span{
-    color: #0568C6;
+    color: #02073E;
   }
 .wrapper .button:nth-child(4) span{
-  color: #0568C6;
+  color: #02073E;
 }
 .wrapper .button:nth-child(5) span{
   color: #E1306C;
