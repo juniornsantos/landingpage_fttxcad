@@ -484,7 +484,6 @@ section .title::before{
 }
 
 
-
 .cssinscrever .txtinscrever .inc2 {
     box-sizing: border-box;
     display: block;
@@ -495,11 +494,92 @@ section .title::before{
     color:  #858B91;
 
 }
+.insform{
+    padding-top: 8%;
+}
 
+.insform input {
+    background-color: rgba(255,255,255,0.08);
+    border: 0 none;
+    color: rgba(255,255,255,0.8);
+    font-family: DM Sans,sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-height: 50px;
+    box-shadow: 0px 16px 40px rgb(72 59 26 / 8%);
+}
 
+.css-bmvo33 input {
+    flex-grow: 1;
+    padding: 0 20px;
+    min-height: 60px;
+    height: auto;
+    width: auto;
+    padding: 0 px;
+}
 
+.css-bmvo33 {
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: flex;
+    margin: 30px auto 0;
+    max-width: 555px;
+    flex-direction: column;
+}
 
+.css-1jf8xj3 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    /* display: block; */
+    width: 70%;
+    padding: 20px;
+    appearance: none;
+    font-size: inherit;
+    line-height: inherit;
+    border: 1px solid;
+    border-radius: 4px;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: var(--theme-ui-colors-borderColor,#F3F4F5);
+    height: 60px;
+}
 
+.css-1rf2cvj {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: var(--theme-ui-colors-primary,#FFC059);
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--theme-ui-colors-primary,#FFC059);
+    font-family: DM Sans,sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out 0s;
+    white-space: nowrap;
+    color: white;
+    min-height: 50px;
+    padding: 0 25px;
+}
 
 
 
