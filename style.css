@@ -548,7 +548,7 @@ section .title::before{
     height: 60px;
 }
 
-.css-1rf2cvj {
+/* .css-1rf2cvj {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -579,6 +579,24 @@ section .title::before{
     color: white;
     min-height: 50px;
     padding: 0 25px;
+} */
+.css-1rf2cvj{
+    padding-top: 30px;
+    display: inline-block;
+    background: #ffc059;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #ffc059;
+    transition: all 0.3s ease;
+}
+.css-1rf2cvj  button:hover{
+    color: #fff;
+    background: #02073E;
+    border: 2px solid #02073E;
 }
 
 
