@@ -251,7 +251,32 @@ section .title::before{
 /* ................. */
 
 
+
+.css-1spk9o2 {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+
+.css-1704eu6 img {
+    max-width: 60px;
+}
+.css-1704eu6 img {
+    max-width: 100%;
+}
+.css-9taffg {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+}
+
 .css-1o3o7dd {
+    display: inline-block;
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
@@ -265,7 +290,7 @@ section .title::before{
 
 
 .css-1vyc6av p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.13;
     color: var(--theme-ui-colors-headingSecondary,#343D48);
     margin-top: 15px;
