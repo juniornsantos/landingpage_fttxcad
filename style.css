@@ -250,8 +250,16 @@ section .title::before{
 
 /* ................. */
 
+.css-1704eu6 {
+    display: flex;
+}
+.css-1n69ozw{
+    color: #343D48;
+    padding-right: 15px;
+}
 
-.css-1spk9o2 {
+.suport {
+    padding: 5%;
     box-sizing: border-box;
     font-size: 18px;
     font-family: "DM Sans", sans-serif;
@@ -274,11 +282,24 @@ section .title::before{
     height: auto;
 }
 
+
 .css-1o3o7dd {
-    display: grid;
+    flex-direction: row;
+    padding: 45px 40px 50px;
+}
+.css-1o3o7dd {
+    flex-direction: row;
+    padding: 45px 40px 50px;
+}
+
+.css-1o3o7dd {
     box-sizing: border-box;
     margin: 0;
     min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block;
     background-color: #F6F8FB;
     border-radius: 7px;
     flex-direction: column;
@@ -286,15 +307,15 @@ section .title::before{
     padding: 25px 25px 20px;
     transition: 0.3s ease-in-out 0s;
 }
+/* ................ */
 
 
 .css-1vyc6av p {
-    font-size: 16px;
+    font-size: 16x;
     line-height: 2.13;
-    color: var(--theme-ui-colors-headingSecondary,#343D48);
+    color: var(--theme-ui-colors-headingSecondary,#484234);
     margin-top: 15px;
 }
-
 
 
 .css-unq1zq {
