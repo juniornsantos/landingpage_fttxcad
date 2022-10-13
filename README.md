@@ -1,3 +1,3 @@
 ## Contagem de Visitantes
 
-<img align="left" src = "https://profile-counter.glitch.me/flutter_ecommerce_app/count.svg" alt ="Loading">
+<img align="left" src = "https://profile-counter.glitch.me/landingpage_fttxcad/count.svg" alt ="Loading">
