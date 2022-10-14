@@ -91,12 +91,12 @@ function sendWhatsApp () {
 }
 
 
-//notificações
-let exibirAlerta = false;
-const titulo = 'FTTx.CAD | Conecte o AutoCAD ao Google Earth';
-const notificacoes ='(2) Novas mensagens';
-const alertaTitulo = setInterval(()=>{
-    document.title = 
-        exibirAlerta ? titulo :notificacoes;
-        exibirAlerta = !exibirAlerta;
-}, 800);
+// //notificações
+// let exibirAlerta = false;
+// const titulo = 'FTTx.CAD | Conecte o AutoCAD ao Google Earth';
+// const notificacoes ='(2) Novas mensagens';
+// const alertaTitulo = setInterval(()=>{
+//     document.title = 
+//         exibirAlerta ? titulo :notificacoes;
+//         exibirAlerta = !exibirAlerta;
+// }, 800);

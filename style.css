@@ -475,6 +475,37 @@ section .title::before{
 
 
 
+
+
+
+
+
+
+/* ............ */
+
+.features {
+    display:inline;
+    align-items: center;
+
+
+}
+.divv01 {
+    background-color: red;
+    padding-top: 10%;
+}
+.divv02 {
+    background-color: yellow;
+    padding-top: 10%;
+}
+.divv03 {
+    background-color: green;
+    padding-top: 10%;
+}
+
+
+
+
+
 /* ................. */
 
 
