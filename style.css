@@ -504,6 +504,30 @@ section .title::before{
 }
 
 
+/* ................. */
+/* testemunhos */
+
+.testemunhos {
+    display: flex;
+    background-color: #FFFCF7;
+    height: 50vh;
+    color: #E6F4F1;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
