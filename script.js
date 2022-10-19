@@ -91,7 +91,8 @@ function sendWhatsApp () {
 }
 
 
-// //notificações
+
+//notificações
 // let exibirAlerta = false;
 // const titulo = 'FTTx.CAD | Conecte o AutoCAD ao Google Earth';
 // const notificacoes ='(2) Novas mensagens';
